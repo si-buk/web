@@ -1,17 +1,3 @@
-@import "libs";
-@import "helpers/variables";
-@import "helpers/mixins";
-@import "general/fonts";
-@import "general/base";
-@import "../blocks/blocks";
-@import "../css/specification";
-@import "../css/fonts";
-@import "../css/media";
-@import "../css/slick";
-@import "../css/slick-theme";
-@import "../css/bootstrap.min";
-
-
 /* --------mobile menu-------*/
 
 

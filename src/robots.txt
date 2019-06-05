@@ -1,0 +1,11 @@
+
+User-agent: *
+Allow: /$
+Disallow: /
+Disallow: 
+Disallow: /css
+Disallow: /js
+Disallow: /img
+Disallow: /leads.xls
+Disallow: /fonts
+Host: https://web-des.ru

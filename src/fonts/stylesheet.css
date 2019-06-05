@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'eurofurence';
+    src: url('Eurofurenceregular.eot');
+    src: url('Eurofurenceregular.eot?#iefix') format('embedded-opentype'),
+        url('Eurofurenceregular.woff2') format('woff2'),
+        url('Eurofurenceregular.woff') format('woff'),
+        url('Eurofurenceregular.ttf') format('truetype'),
+        url('Eurofurenceregular.svg#Eurofurenceregular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

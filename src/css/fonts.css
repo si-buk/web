@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'Mont Heavy DEMO';
+	src: url('Mont-HeavyDEMO.eot');
+	src: url('Mont-HeavyDEMO.eot?#iefix') format('embedded-opentype'),
+			url('Mont-HeavyDEMO.woff2') format('woff2'),
+			url('Mont-HeavyDEMO.woff') format('woff'),
+			url('Mont-HeavyDEMO.ttf') format('truetype'),
+			url('Mont-HeavyDEMO.svg#Mont-HeavyDEMO') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cinzel Decorative';
+	src: url('CinzelDecorative-Regular.eot');
+	src: url('CinzelDecorative-Regular.eot?#iefix') format('embedded-opentype'),
+			url('CinzelDecorative-Regular.woff2') format('woff2'),
+			url('CinzelDecorative-Regular.woff') format('woff'),
+			url('CinzelDecorative-Regular.ttf') format('truetype'),
+			url('CinzelDecorative-Regular.svg#CinzelDecorative-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('Gilroy-ExtraBold.eot');
+	src: url('Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+			url('Gilroy-ExtraBold.woff2') format('woff2'),
+			url('Gilroy-ExtraBold.woff') format('woff'),
+			url('Gilroy-ExtraBold.ttf') format('truetype'),
+			url('Gilroy-ExtraBold.svg#Gilroy-ExtraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('Gilroy-Light.eot');
+	src: url('Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+			url('Gilroy-Light.woff2') format('woff2'),
+			url('Gilroy-Light.woff') format('woff'),
+			url('Gilroy-Light.ttf') format('truetype'),
+			url('Gilroy-Light.svg#Gilroy-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cinzel Decorative';
+	src: url('CinzelDecorative-Bold.eot');
+	src: url('CinzelDecorative-Bold.eot?#iefix') format('embedded-opentype'),
+			url('CinzelDecorative-Bold.woff2') format('woff2'),
+			url('CinzelDecorative-Bold.woff') format('woff'),
+			url('CinzelDecorative-Bold.ttf') format('truetype'),
+			url('CinzelDecorative-Bold.svg#CinzelDecorative-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mont ExtraLight DEMO';
+	src: url('Mont-ExtraLightDEMO.eot');
+	src: url('Mont-ExtraLightDEMO.eot?#iefix') format('embedded-opentype'),
+			url('Mont-ExtraLightDEMO.woff2') format('woff2'),
+			url('Mont-ExtraLightDEMO.woff') format('woff'),
+			url('Mont-ExtraLightDEMO.ttf') format('truetype'),
+			url('Mont-ExtraLightDEMO.svg#Mont-ExtraLightDEMO') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cinzel Decorative';
+	src: url('CinzelDecorative-Black.eot');
+	src: url('CinzelDecorative-Black.eot?#iefix') format('embedded-opentype'),
+			url('CinzelDecorative-Black.woff2') format('woff2'),
+			url('CinzelDecorative-Black.woff') format('woff'),
+			url('CinzelDecorative-Black.ttf') format('truetype'),
+			url('CinzelDecorative-Black.svg#CinzelDecorative-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'eurofurence';
+	src: url('Eurofurenceitalic.eot');
+	src: url('Eurofurenceitalic.eot?#iefix') format('embedded-opentype'),
+			url('Eurofurenceitalic.woff2') format('woff2'),
+			url('Eurofurenceitalic.woff') format('woff'),
+			url('Eurofurenceitalic.ttf') format('truetype'),
+			url('Eurofurenceitalic.svg#Eurofurenceitalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'eurofurence';
+	src: url('Eurofurencelight.eot');
+	src: url('Eurofurencelight.eot?#iefix') format('embedded-opentype'),
+			url('Eurofurencelight.woff2') format('woff2'),
+			url('Eurofurencelight.woff') format('woff'),
+			url('Eurofurencelight.ttf') format('truetype'),
+			url('Eurofurencelight.svg#Eurofurencelight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'eurofurence';
+	src: url('Eurofurencebold.eot');
+	src: url('Eurofurencebold.eot?#iefix') format('embedded-opentype'),
+			url('Eurofurencebold.woff2') format('woff2'),
+			url('Eurofurencebold.woff') format('woff'),
+			url('Eurofurencebold.ttf') format('truetype'),
+			url('Eurofurencebold.svg#Eurofurencebold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'eurofurence';
+	src: url('Eurofurenceregular.eot');
+	src: url('Eurofurenceregular.eot?#iefix') format('embedded-opentype'),
+			url('Eurofurenceregular.woff2') format('woff2'),
+			url('Eurofurenceregular.woff') format('woff'),
+			url('Eurofurenceregular.ttf') format('truetype'),
+			url('Eurofurenceregular.svg#Eurofurenceregular') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+

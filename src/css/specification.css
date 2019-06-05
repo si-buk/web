@@ -1,0 +1,71 @@
+body {
+	font-family: 'eurofurence';
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 62px;
+	text-transform: uppercase;
+	color: #042a28;
+}
+
+h2 {
+	font-size: 40px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	color: #042a28;
+	margin: 80px 0;
+	width: 100%;
+	text-align: center;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+li,
+a,
+li:hover,
+a:hover {
+	text-decoration: none;
+
+}
+
+ul,
+ul:hover {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	border-radius: 24px;
+	border: #d9011c 2px solid;
+}
+
+.btn:hover {
+	background: linear-gradient(245deg, #e2031d, #af050b);
+	transition: 0.5s;
+	color: #fff;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.circle {
+	position: absolute;
+	border-radius: 50%;
+	background: linear-gradient(305deg, #fdb825, #fa8907);
+	box-shadow: 4px 4px 10px rgba(127, 124, 124, 0.32);
+}
+

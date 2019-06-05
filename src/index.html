@@ -16,40 +16,674 @@
 		<link rel="apple-touch-icon" sizes="120x120" href="./img/favicons/apple-touch-icon-120x120.png">
 		<link rel="apple-touch-icon" sizes="144x144" href="./img/favicons/apple-touch-icon-144x144.png">
 		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon-180x180.png">
-		<link rel="stylesheet" href="./styles/main.css">
-		<style>
-			body {
-				font-family: "Arial", sans-serif;
-				font-size: 16px;
-				text-align: center;
-				width: 100%;
-				height: 100%;
-				position: fixed;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-			}
-
-			.img-responsive {
-				max-width: 600px;
-				width: 100%;
-				height: auto;
-			}
-		</style>
-	</head>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="yandex-verification" content="e856cbd0fdb553e3" />
+		<link rel="shortcut icon" href="img/logo_heder-min.png" type="imag/png">
+		<link rel="stylesheet" href="/styles/main.css">
+		<title>web-des</title>
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141288485-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+	
+			gtag('config', 'UA-141288485-1');
+		</script>
 	<body>
 		@@include("./blocks/header/header.html")
-		<div class="container">
-			<div class="main">
-				<picture class="main__img">
-					<source class="img-responsive" srcset="../img/pic.webp" type="image/webp">
-					<img class="img-responsive" src="img/pic.png" alt="">
-				</picture>
-				<div class="main__text">
-					<p>Проба текстом <code>src/index.html</code>
+		<header class="header" id="header">
+				<div class="container-fluid border_duble">
+					<div class="nav nav-widt">
+						<a class="nav__trigger">
+							<div class="bars"></div>
+						</a>
+		
+						<div class="nav__content">
+							<nav class="nav__list">
+								<ul>
+									<li class="nav__item"><a href="#acquaintance">О нас</a></li>
+									<li class="nav__item"><a href="#service">Услуги</a></li>
+									<li class="nav__item"><a href="#portfolio">Портфолио</a></li>
+									<li class="nav__item"><a href="#reviews">Отзывы</a></li>
+									<li class="nav__item"><a href="#service">Цены</a></li>
+									<li class="nav__item"><a href="#contacts">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="container">
+		
+						<ul class="nav-menu">
+							<li>
+								<a href="#acquaintance" class="nav-menu_first">О нас</a>
+							</li>
+							<li>
+								<a href="#service">Услуги</a>
+							</li>
+							<li>
+								<a href="#portfolio">Портфолио</a>
+							</li>
+							<li>
+								<a href="#reviews">Отзывы</a>
+							</li>
+							<li>
+								<a href="#service">Цены</a>
+							</li>
+							<li>
+								<a href="#contacts" class="nav-menu_last">Контакты</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</div>
+				<div class="container tac">
+					<div class="logo">
+						<img src="./img/logo_heder-min.png" alt="web-des">
+					</div>
+					<div class="row  align-items-center">
+						<div class="col-lg-5">
+							<h1>
+								Нужен современый
+								индивидуальный
+								стильный сайт?
+								Тогда к нам!
+							</h1>
+							<p class="heder-text">
+								Честная работа за хорошие деньги
+								Работаем без посредников, поэтому
+								никаких переплат!!!
+							</p>
+							<button class="btn heder-btn" data-parent="Кнопка в шапке" data-toggle="modal" data-target="#myModal-question">
+								Заказать сайт
+							</button>
+						</div>
+						<div class="col-lg-7">
+							<img class="heder-img" src="./img/des-min.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="acquaintance" id="acquaintance">
+				<div class="circle acquaintance-cirkle"></div>
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6">
+							<h2>
+								Давайте познакомимся ?!
+							</h2>
+							<p>
+								&#8195 <b> Меня зовут Вера.</b> Я действующий, профессиональный веб - дизайнер. Люблю свою работу и
+								стремлюсь,
+								чтобы любое
+								сотрудничество со мной оставило у вас только положительное впечатление. Для меня важна каждая деталь вашего
+								проекта, поэтому стремлюсь вникнуть глубоко в суть дела, учесть ваши предпочтения и выполнить максимально
+								качественный продукт.
+							</p>
+							<p>
+								&#8195 <b>Мой муж Евгений</b> - веб-разработчик. Занимается дизайном, вёрсткой, продвижением сайтов и это не
+								всё )
+								Вместе
+								мы одна команда! Профессионально занимаемся разработкой разного рода веб-проектов. Каждый сайт для нас
+								своего рода ребёнок, к которому нужен свой подход. Если мы берём ваш проект, то работаем непосредственно с
+								ним.
+							</p>
+							<p> &#8195 Многие веб - студии принимая заказ, ищут исполнителя на онлайн - биржах за сравнительно низкие
+								цены. В свою
+								очередь это отражается на качестве работы, так как основной доход отправляется в карман именно заказчику из
+								студии. Поэтому, когда вы имеете дело непосредственно с исполнителем, то это служит вам огромным плюсом -
+								экономит время и ваш бюджет!) Теперь вы понимаете, что выбирая нас вы не оплачиваете работу сразу нескольких
+								сотрудников компании, а платите непосредственно нам - исполнителям проекта за более качественный результат.
+								Мы в свою очередь гарантируем ответственный подход и бесплатную поддержку первое время!))</p>
+						</div>
+						<div class="col-lg-6 tac">
+							<img src="./img/famili-min.png" alt="web-des">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="advantages" id="advantages">
+				<div class="circle advantages-circle "></div>
+				<div class="container">
+					<div class="row">
+						<h2 class="advantages-title">Преимущества работы с нами</h2>
+					</div>
+					<div class="row text-center">
+						<div class="col">
+							<img src="./img/smail-min.png" alt="">
+							<p>
+								Честная работа
+								без посредников
+							</p>
+						</div>
+						<div class="col">
+							<img src="./img/Phone_blok-min.png" alt="">
+							<p>
+								Честная работа
+								без посредников
+							</p>
+						</div>
+						<div class="col">
+							<img src="./img/time-min.png" alt="">
+							<p>
+								Честная работа
+								без посредников
+							</p>
+						</div>
+						<div class="col">
+							<img src="./img/not_shablon-min.png" alt="">
+							<p>
+								Честная работа
+								без посредников
+							</p>
+						</div>
+						<div class="col">
+							<img src="./img/help-min.png" alt="">
+							<p>
+								Честная работа
+								без посредников
+							</p>
+						</div>
+					</div>
+		
+				</div>
+			</section>
+			<section class="service" id="service">
+				<div class="circle circle-service-title"></div>
+				<div class="circle circle-service-left"></div>
+				<div class="circle circle-service-right"></div>
+				<div class="container">
+					<div class="row">
+						<h2>Чем мы реально можем вам помочь</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="service-card">
+								<div class="card">
+									<h3 class="card-title">Landing page</h3>
+									<span class="card-bay">
+										От 25 000
+									</span>
+									<span class="card-time">
+										От 7 дней
+									</span>
+									<div class="card-list">
+										<li>Исследуем целевцю аудитория</li>
+										<li>Анализируем конкурентов</li>
+										<li>Создаём прототип, утверждаем</li>
+										<li>Разрабатываем дизайн</li>
+										<li>Делаем сайт адаптивным</li>
+										<li>Настраиваем систему аналитики</li>
+										<li>Размещаем на хостинг</li>
+									</div>
+									<button class="btn card-btn" data-parent="Landing page" data-toggle="modal"
+										data-target="#myModal">Заказать</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="service-card">
+								<div class="card">
+									<h3 class="card-title">Сайт-Визитка</h3>
+									<span class="card-bay">
+										От 35 000
+									</span>
+									<span class="card-time">
+										От 10 дней
+									</span>
+									<div class="card-list">
+										<li>Создаём прототип, утверждаем</li>
+										<li>Разрабатываем дизайн</li>
+										<li>Делаем сайт адаптивным</li>
+										<li>Подбараем CMS</li>
+										<li>Размещаем на хостинг</li>
+										<li>Обучаем пользоваться</li>
+									</div>
+									<button class="btn card-btn" data-parent="Сайт визитка" data-toggle="modal"
+										data-target="#myModal">Заказать</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="service-card">
+								<div class="card">
+									<h3 class="card-title">Корпаративный сайт</h3>
+									<span class="card-bay">
+										От 35 000
+									</span>
+									<span class="card-time">
+										От 10 дней
+									</span>
+									<div class="card-list">
+										<li>Создаём прототип, утверждаем</li>
+										<li>Разрабатываем дизайн</li>
+										<li>Делаем сайт адаптивным</li>
+										<li>Подбараем CMS</li>
+										<li>Размещаем на хостинг</li>
+										<li>Обучаем пользоваться</li>
+									</div>
+									<button class="btn card-btn" data-parent="Корпаративный сайт" data-toggle="modal"
+										data-target="#myModal">Заказать</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="service-card">
+								<div class="card">
+									<h3 class="card-title">Интернет-магазин</h3>
+									<span class="card-bay">
+										От 50 000
+									</span>
+									<span class="card-time">
+										От 20 дней
+									</span>
+									<div class="card-list">
+										<li>Исследуем целевцю аудитория</li>
+										<li>Анализируем конкурентов</li>
+										<li>Создаём прототип, утверждаем</li>
+										<li>Разрабатываем дизайн</li>
+										<li>Делаем сайт адаптивным</li>
+										<li>Настраиваем систему аналитики</li>
+										<li>Размещаем на хостинг</li>
+										<li>Даём рекомендации</li>
+									</div>
+									<button class="btn card-btn" data-parent="Интернет магазин" data-toggle="modal"
+										data-target="#myModal">Заказать</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="service-card">
+								<div class="card">
+									<h3 class="card-title">Редизайн</h3>
+									<span class="card-bay">
+										От 25 000
+									</span>
+									<span class="card-time">
+										От 7 дней
+									</span>
+									<div class="card-list">
+										<li>Создаём прототип, утверждаем</li>
+										<li>Разрабатываем дизайн</li>
+										<li>Делаем сайт адаптивным</li>
+										<li>Размещаем на хостинг</li>
+										<li>Даём рекомендации</li>
+									</div>
+									<button class="btn card-btn" data-parent="Редизайн" data-toggle="modal"
+										data-target="#myModal">Заказать</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="service-card service-card-projekt">
+								<div class="card">
+									<h3 class="card-title card-title-1 ">Давайте обсудим<span class="card-bay">
+											Ваш
+										</span>Проект!</h3>
+									<div class="card-list card-list-1">
+										<p>
+											Задайте нам интересующие вас вопросы и мы с удовольствием ответим на них. Будем рады предложить вам
+											свои варианты решения задач. В любом случае всё важно и нужно обсуждать! Не беспокойтесь о сложных
+											терминах - мы постараемся всё объяснить на доступном для вас языке))
+										</p>
+									</div>
+									<button class="btn card-btn card-btn-1" data-parent="Кнопка задать вопрос" data-toggle="modal"
+										data-target="#myModal-question">Задать вопрос</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="portfolio" id="portfolio">
+				<div class="container">
+					<div class="row">
+						<h2>
+							Наше портфолио
+						</h2>
+		
+					</div>
+					<div class="row">
+						<div class="circle circle-portfolio"></div>
+						<div class="col-12 m-auto">
+							<div class="autoplay">
+								<div>
+									<img src="img/гинекология-min.png" alt="">
+									<p>
+										Сайт - визитка
+									</p>
+								</div>
+								<div>
+									<img src="img/магазин.png" alt="">
+									<p>
+										Интернет - магазин
+									</p>
+								</div>
+								<div>
+									<img src="img/юридич.png" alt="">
+									<p>
+										Корпоративный сайт
+									</p>
+								</div>
+								<div>
+									<img src="img/гинекология-min.png" alt="">
+									<p>
+										Сайт - визитка
+									</p>
+								</div>
+								<div>
+									<img src="img/магазин.png" alt="">
+									<p>
+										Интернет - магазин
+									</p>
+								</div>
+		
+							</div>
+						</div>
+					</div>
+					<div class="row">
+		
+						<div class="col-12 m-auto">
+							<div class="autopl-lending">
+								<div>
+									<img src="img/свадебный.png" alt="">
+								</div>
+								<div>
+									<img src="img/ресторан.png" alt="">
+								</div>
+								<div>
+									<img src="img/свадебный.png" alt="">
+								</div>
+								<div>
+									<img src="img/ресторан.png" alt="">
+								</div>
+								<div>
+									<img src="img/свадебный.png" alt="">
+								</div>
+								<div>
+									<img src="img/ресторан.png" alt="">
+								</div>
+							</div>
+							<p class="autopl-lending-text">
+								Landing Page
+							</p>
+							<div class="circle circle-portfolio-lending"></div>
+						</div>
+					</div>
+		
+		
+				</div>
+			</section>
+			<section class="reviews" id="reviews">
+				<div class="container">
+					<h2 class="reviews-title">
+						Отзывы наших клиентов
+					</h2>
+					<div class="circle circle-reviews"></div>
+					<div class="row reviews-row">
+						<img class="reviews-img" src="img/granica.png" alt="">
+						<div class="col-lg-5 tac">
+							<img src="img/otzovik-min.png" alt="">
+		
+						</div>
+						<div class="col-lg-7">
+							<div class="reviews-text">
+								<p class="reviews-frilance">
+									На этой странице не накрученные отзывы, а отзывы реальных людей! Большинство из них легко проверить на
+									сайте фриланс - биржи Freelance.ru. На данной бирже есть система, позволяющая контролировать качество
+									исполнения работ.
+									Только реальные отзывы по реальным проектам, которые также должна подтвердить администрация!!!
+								</p>
+								<div class="row">
+									<div class="col-lg-10 m-auto text-center">
+										<div class="reviews-slaid">
+											<div class="slid-one">
+												<p class="reviews-name">
+													Игорь Аннеков
+												</p>
+												<p class="reviews-slovo">
+													Прекрасная работа. Профессиональное объяснение, разумное отстаивание необходимого. Дизайн
+													полностью
+													удовлетворяет заказчика. Предложен ряд нестандартных решений. Рекомендую как дизайнера высокого
+													уровня
+													со своим нестандартным подходом.
+												</p>
+											</div>
+											<div class="slid-one">
+												<p class="reviews-name">
+													Антон Аннеков
+												</p>
+												<p class="reviews-slovo">
+													Прекрасная работа. Профессиональное объяснение, разумное отстаивание необходимого. Дизайн
+													полностью
+													удовлетворяет заказчика. Предложен ряд нестандартных решений. Рекомендую как дизайнера высокого
+													уровня
+													со своим нестандартным подходом.
+												</p>
+											</div>
+											<div class="slid-one">
+												<p class="reviews-name">
+													Толя Аннеков
+												</p>
+												<p class="reviews-slovo">
+													Прекрасная работа. Профессиональное объяснение, разумное отстаивание необходимого. Дизайн
+													полностью
+													удовлетворяет заказчика. Предложен ряд нестандартных решений. Рекомендую как дизайнера высокого
+													уровня
+													со своим нестандартным подходом.
+												</p>
+											</div>
+										</div>
+										<button class="btn" data-parent="Кнопка оставить отзыв" data-toggle="modal"
+											data-target="#myModal-reviews">
+											Оставить отзыв
+										</button>
+									</div>
+								</div>
+		
+							</div>
+						</div>
+					</div>
+				</div>
+		
+			</section>
+			<section class="contacts" id="contacts">
+				<div class="container">
+					<div class="row">
+						<h2 class="contacts-title">с нами легко связаться</h2>
+						<div class="circle circle-contacts"></div>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-xl-3 col-sm-6">
+							<ul>
+								<li>
+									<img src="img/instagram-min.png" alt="web-des">
+									<a href="https://www.instagram.com/evgeniy_vdohnovenie">evgeniy_vdohnovenie</a>
+								</li>
+								<li>
+									<img src="img/vk-min.png" alt="web-des">
+									<a href="https://vk.com/id24160122">id24160122</a>
+								</li>
+								<li>
+									<img src="img/phone-min.png" alt="web-des">
+									<a href="tel:+79234733432">+79234733432</a>
+								</li>
+								<li>
+									<img src="img/mail-min.png" alt="web-des">
+									<a href="mailto:pantyxin@gmail.com">pantyxin@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-4 col-sm-6 ">
+							<ul>
+								<li>
+									<img src="img/instagram-min.png" alt="web-des">
+									<a href="https://www.instagram.com/vera_pantyukhina">vera_pantyukhina</a>
+								</li>
+								<li>
+									<img src="img/vk-min.png" alt="web-des">
+									<a href="https://vk.com/id168528813">id168528813</a>
+								</li>
+								<li>
+									<img src="img/phone-min.png" alt="web-des">
+									<a href="tel:+79133275375">+79133275375</a>
+								</li>
+								<li>
+									<img src="img/mail-min.png" alt="web-des">
+									<a href="mailto:verunchik1914@gmail.com">verunchik1914@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xl-5 order-xl-3 order-first">
+							<img class="contacts-img" src="img/kontakt-min.png" alt="web-des">
+						</div>
+					</div>
+				</div>
+		
+			</section>
+			<footer class="footer" id="footer">
+				<div class="container tac">
+					<div class="row align-items-center">
+						<div class="col-lg-1">
+							<img src="img/logo_footer-min.png" alt="">
+						</div>
+						<div class="col-lg-8">
+							<ul class="footer-menu">
+								<li>
+									<a href="#acquaintance" class="nav-menu_first">О нас</a>
+								</li>
+								<li>
+									<a href="#service">Услуги</a>
+								</li>
+								<li>
+									<a href="#portfolio">Портфолио</a>
+								</li>
+								<li>
+									<a href="#reviews">Отзывы</a>
+								</li>
+								<li>
+									<a href="#service">Цены</a>
+								</li>
+								<li>
+									<a href="#contacts">Контакты</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-3">
+							<button class="btn footer-btn" data-parent="Кнопка в подвале" data-toggle="modal"
+								data-target="#myModal-question">Заказать сайт</button>
+						</div>
+					</div>
+					<div class="row">
+						<p>
+							Все права защищены/2019
+						</p>
+					</div>
+				</div>
+		
+		
+		
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+		
+							<div class="modal-body">
+								<form action="success.php" class="js-form" id="popupResult">
+									<input type="text" name="target" hidden>
+									<input type="text" name="email" placeholder="E-mail" required>
+									<input type="text" name="tel" placeholder="Телефон" required>
+									<input type="text" name="name" placeholder="Имя" required>
+									<button class="btn-form" data-submit>Отправить</button>
+								</form>
+							</div>
+		
+						</div>
+					</div>
+				</div>
+		
+		
+				<div class="modal fade" id="myModal-reviews" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+		
+							<div class="modal-body">
+								<form action="success.php" class="js-form" id="popupResult">
+									<input type="text" name="target" hidden>
+									<input type="text" name="email" placeholder="E-mail" required>
+									<input type="text" name="name" placeholder="Имя" required>
+									<textarea name="comment" placeholder="Ваш отзыв"></textarea>
+									<button class="btn-form" data-submit>Отправить</button>
+								</form>
+							</div>
+		
+						</div>
+					</div>
+				</div>
+		
+		
+				<div class="modal fade" id="myModal-question" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+		
+							<div class="modal-body">
+								<form action="success.php" class="js-form" id="popupResult">
+									<input type="text" name="target" hidden>
+									<input type="text" name="tel" placeholder="Телефон" required>
+									<input type="text" name="email" placeholder="E-mail" required>
+									<input type="text" name="name" placeholder="Имя" required>
+									<textarea name="comment" placeholder="Опишите что вас интересует"></textarea>
+									<button class="btn-form" data-submit>Отправить</button>
+								</form>
+							</div>
+		
+						</div>
+					</div>
+				</div>
+		
+				<!-- Индикация процесса отправки формы -->
+				<div id="loader">
+					<img src="img/ripple.svg">
+				</div>
+		
+				<!-- Сообщение "спасибо" после отправки формы -->
+				<div id="overlay">
+					<div id="thx">
+						Спасибо! Мы обязательно с вами свяжемся
+					</div>
+				</div>
+		
+		
+				<!-- Yandex.Metrika counter -->
+				<script type="text/javascript">
+					(function (m, e, t, r, i, k, a) {
+						m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+						m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+					})
+						(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+		
+					ym(53899681, "init", {
+						clickmap: true,
+						trackLinks: true,
+						accurateTrackBounce: true,
+						webvisor: true
+					});
+				</script>
+				<noscript>
+					<div><img src="https://mc.yandex.ru/watch/53899681" style="position:absolute; left:-9999px;" alt="" /></div>
+				</noscript>
+				<!-- /Yandex.Metrika counter -->
+		
+		
+			</footer>
+			<script src="js/jquery-3.4.1.min.js"></script>
+			<script type="text/javascript"
+				src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js'></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/slick.min.js"></script>
+			<script src="js/main.js"></script>
+		
 		@@include("./blocks/footer/footer.html")
 		<script src="./js/main.js"></script>
 	</body>

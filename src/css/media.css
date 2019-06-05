@@ -1,0 +1,148 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .logo {
+    left: 5px;
+    width: 80px;
+  }
+  .contacts-img {
+    display: block;
+    margin: auto;
+  }
+  .reviews-name::after {
+    left: 80px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .logo {
+    left: 10%;
+  }
+  .nav {
+    display: block;
+  }
+  h1 {
+    margin-top: 100px;
+  }
+  .tac {
+    text-align: center;
+  }
+  .border_duble {
+    border: none;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    background: #fff;
+    z-index: 98;
+    top: 0;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .heder-img {
+    margin-top: 80px;
+  }
+  .reviews-name::after {
+    left: 180px;
+  }
+  .reviews-img {
+    display: none;
+  }
+  .acquaintance-cirkle {
+    display: none;
+  }
+  .circle-service-right {
+    top: 66%;
+  }
+  .footer-menu {
+    margin: 25px 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .contacts a {
+    font-size: 16px;
+  }
+  .reviews-name::after {
+    left: 90px;
+  }
+  .circle-portfolio {
+    left: 0;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .contacts ul {
+    margin-top: 30px;
+  }
+  .contacts a {
+    font-size: 20px;
+  }
+  .advantages-circle {
+    left: 30px;
+  }
+  .circle-service-left {
+    width: 260px;
+    height: 260px;
+  }
+  .reviews-name::after {
+    display: none;
+  }
+  .footer-menu {
+    display: block;
+    margin: 20px;
+    line-height: 35px;
+  }
+  .circle-service-right {
+    width: 260px;
+    height: 260px;
+  }
+  .service-card {
+    height: 520px;
+  }
+  
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  
+}
